@@ -1,0 +1,15 @@
+﻿{
+    "schema_version":  "0.1.0",
+    "id":  "family-agentic-flow",
+    "title":  "Family: agentic-flow",
+    "description":  "Suite generada para tecnicas de la familia agentic-flow.",
+    "technique_ids":  [
+                          "RT-029",
+                          "RT-030",
+                          "RT-046",
+                          "RT-084",
+                          "RT-085",
+                          "RT-086"
+                      ],
+    "recommended_mode":  "manual-first"
+}

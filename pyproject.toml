@@ -1,0 +1,16 @@
+[project]
+name = "redteam-llm"
+version = "0.1.0"
+description = "Framework inicial para catalogar, ejecutar y registrar pruebas ofensivas autorizadas contra LLMs y sistemas GenAI."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "Apache-2.0" }
+authors = [{ name = "Red-team-llm contributors" }]
+dependencies = []
+
+[project.scripts]
+redteam-llm = "redteam_llm.cli:main"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

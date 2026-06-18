@@ -1,0 +1,16 @@
+﻿{
+    "schema_version":  "0.1.0",
+    "id":  "family-rag",
+    "title":  "Family: rag",
+    "description":  "Suite generada para tecnicas de la familia rag.",
+    "technique_ids":  [
+                          "RT-021",
+                          "RT-022",
+                          "RT-023",
+                          "RT-053",
+                          "RT-064",
+                          "RT-065",
+                          "RT-072"
+                      ],
+    "recommended_mode":  "manual-first"
+}
