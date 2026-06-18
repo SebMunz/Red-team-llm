@@ -1,0 +1,14 @@
+﻿{
+    "schema_version":  "0.1.0",
+    "id":  "family-tools",
+    "title":  "Family: tools",
+    "description":  "Suite generada para tecnicas de la familia tools.",
+    "technique_ids":  [
+                          "RT-024",
+                          "RT-025",
+                          "RT-026",
+                          "RT-041",
+                          "RT-083"
+                      ],
+    "recommended_mode":  "manual-first"
+}

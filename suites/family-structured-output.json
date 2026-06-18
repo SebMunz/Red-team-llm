@@ -1,0 +1,17 @@
+﻿{
+    "schema_version":  "0.1.0",
+    "id":  "family-structured-output",
+    "title":  "Family: structured-output",
+    "description":  "Suite generada para tecnicas de la familia structured-output.",
+    "technique_ids":  [
+                          "RT-016",
+                          "RT-031",
+                          "RT-032",
+                          "RT-033",
+                          "RT-059",
+                          "RT-060",
+                          "RT-061",
+                          "RT-062"
+                      ],
+    "recommended_mode":  "manual-first"
+}

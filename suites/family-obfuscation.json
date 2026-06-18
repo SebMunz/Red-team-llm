@@ -1,0 +1,17 @@
+﻿{
+    "schema_version":  "0.1.0",
+    "id":  "family-obfuscation",
+    "title":  "Family: obfuscation",
+    "description":  "Suite generada para tecnicas de la familia obfuscation.",
+    "technique_ids":  [
+                          "RT-049",
+                          "RT-050",
+                          "RT-051",
+                          "RT-052",
+                          "RT-054",
+                          "RT-055",
+                          "RT-056",
+                          "RT-057"
+                      ],
+    "recommended_mode":  "manual-first"
+}

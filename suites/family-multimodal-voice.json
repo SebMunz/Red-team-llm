@@ -1,0 +1,14 @@
+﻿{
+    "schema_version":  "0.1.0",
+    "id":  "family-multimodal-voice",
+    "title":  "Family: multimodal-voice",
+    "description":  "Suite generada para tecnicas de la familia multimodal-voice.",
+    "technique_ids":  [
+                          "RT-020",
+                          "RT-037",
+                          "RT-038",
+                          "RT-070",
+                          "RT-071"
+                      ],
+    "recommended_mode":  "manual-first"
+}

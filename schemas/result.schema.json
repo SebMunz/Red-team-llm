@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RedTeamResult",
+  "type": "object",
+  "required": ["project", "suite_id", "technique_id", "result", "severity", "reproducible"],
+  "properties": {
+    "project": { "type": "string" },
+    "suite_id": { "type": "string" },
+    "technique_id": { "type": "string" },
+    "turns": { "type": "array", "items": { "type": "object" } },
+    "result": { "type": "string" },
+    "failure_observed": { "type": "string" },
+    "severity": { "type": "string", "enum": ["P0", "P1", "P2", "P3"] },
+    "reproducible": { "type": "boolean" },
+    "notes": { "type": "string" }
+  }
+}

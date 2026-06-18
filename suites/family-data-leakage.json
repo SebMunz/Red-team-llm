@@ -1,0 +1,15 @@
+﻿{
+    "schema_version":  "0.1.0",
+    "id":  "family-data-leakage",
+    "title":  "Family: data-leakage",
+    "description":  "Suite generada para tecnicas de la familia data-leakage.",
+    "technique_ids":  [
+                          "RT-010",
+                          "RT-011",
+                          "RT-012",
+                          "RT-042",
+                          "RT-047",
+                          "RT-081"
+                      ],
+    "recommended_mode":  "manual-first"
+}

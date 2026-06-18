@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RedTeamTechnique",
+  "type": "object",
+  "required": ["id", "title", "slug", "family", "tags", "concept", "how_to", "examples"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^RT-[0-9]{3}$" },
+    "title": { "type": "string", "minLength": 1 },
+    "slug": { "type": "string", "minLength": 1 },
+    "family": { "type": "string", "minLength": 1 },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "severity_hint": { "type": "string", "enum": ["P0", "P1", "P2", "P3"] },
+    "source": { "type": "string" },
+    "concept": { "type": "string" },
+    "how_to": { "type": "string" },
+    "examples": { "type": "array", "items": { "type": "string" } },
+    "expected_safe_behavior": { "type": "array", "items": { "type": "string" } },
+    "failure_signals": { "type": "array", "items": { "type": "string" } }
+  }
+}

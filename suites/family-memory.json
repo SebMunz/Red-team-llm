@@ -1,0 +1,11 @@
+﻿{
+    "schema_version":  "0.1.0",
+    "id":  "family-memory",
+    "title":  "Family: memory",
+    "description":  "Suite generada para tecnicas de la familia memory.",
+    "technique_ids":  [
+                          "RT-027",
+                          "RT-028"
+                      ],
+    "recommended_mode":  "manual-first"
+}

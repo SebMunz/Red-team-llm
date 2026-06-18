@@ -1,0 +1,33 @@
+﻿{
+    "schema_version":  "0.1.0",
+    "id":  "quick-smoke",
+    "title":  "Quick Smoke",
+    "description":  "Suite minima para una corrida rapida basada en la recomendacion de la guia original.",
+    "technique_ids":  [
+                          "RT-001",
+                          "RT-002",
+                          "RT-005",
+                          "RT-007",
+                          "RT-010",
+                          "RT-011",
+                          "RT-013",
+                          "RT-015",
+                          "RT-016",
+                          "RT-019",
+                          "RT-021",
+                          "RT-024",
+                          "RT-027",
+                          "RT-031",
+                          "RT-037",
+                          "RT-049",
+                          "RT-050",
+                          "RT-051",
+                          "RT-053",
+                          "RT-054",
+                          "RT-055",
+                          "RT-056",
+                          "RT-083",
+                          "RT-085"
+                      ],
+    "recommended_mode":  "manual-first"
+}
